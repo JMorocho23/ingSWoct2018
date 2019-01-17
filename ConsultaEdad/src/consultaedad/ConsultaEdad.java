@@ -44,7 +44,7 @@ public class ConsultaEdad {
         
         try (PrintWriter out = new PrintWriter("tuEdad.txt")) {
             out.println(edadActual);
-            System.out.println("Su edad ha sido calculada! Revise el archivo");
+            System.out.println("Su edad ha sido calculada! Revise el archivo en el directorio del programa");
         }
     }
     
